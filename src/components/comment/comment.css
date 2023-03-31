@@ -1,0 +1,34 @@
+.Comment {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: -70px;
+}
+.comment-btn {
+  background-color: #4caf50; /* Set background color */
+  border: none; /* Remove borders */
+  color: white; /* Set text color */
+  padding: 5px 8px; /* Set padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it a block element */
+  font-size: 14px; /* Set font size */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+.comment-btn:hover {
+  background-color: #3e8e41;
+}
+.add-comment {
+  /* width: 100%; */
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.comment-box {
+  width: 500px;
+}

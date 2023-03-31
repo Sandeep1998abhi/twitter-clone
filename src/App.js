@@ -45,6 +45,11 @@ export default function App() {
         <button type="submit" className="log-btn">
           Log In
         </button>
+        <p className="Id-Password">
+          Id-Twitter@123
+          <br />
+          password-98765
+        </p>
       </form>
     </div>
   ) : (

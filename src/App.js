@@ -9,7 +9,7 @@ export default function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`Username: ${username} Password: ${password}`);
-    if (username === "Sandy@1999" && password === "98765") {
+    if (username === "Twitter@123" && password === "98765") {
       setIsAuthenicate(true);
     }
   };
